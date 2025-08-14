@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brewtopia Café</title>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background: #fdf6f0;
+        color: #333;
+        overflow-x: hidden;
+    }
+    header {
+        background: linear-gradient(135deg, #ff8a65, #ffca28);
+        padding: 1.5rem;
+        text-align: center;
+        color: white;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    header h1 {
+        margin: 0;
+        font-size: 2.2rem;
+        letter-spacing: 1px;
+    }
+    nav a {
+        text-decoration: none;
+        color: white;
+        margin: 0 15px;
+        font-weight: bold;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+    section {
+        padding: 2rem;
+        max-width: 1000px;
+        margin: auto;
+    }
+    .menu {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+    .menu-item {
+        background: white;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+    }
+    .menu-item img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .menu-item:hover {
+        transform: scale(1.05);
+    }
+    .menu-item h3 {
+        margin: 10px;
+    }
+    .menu-item p {
+        margin: 10px;
+        color: #666;
+    }
+    .vibe-check {
+        background: #ffecb3;
+        padding: 1.5rem;
+        border-radius: 12px;
+        margin-top: 2rem;
+    }
+    footer {
+        text-align: center;
+        padding: 1rem;
+        background: #ff8a65;
+        color: white;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Brewtopia Café ☕</h1>
+    <nav>
+        <a href="#menu">Menu</a>
+        <a href="#vibe">Vibe Check</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="menu">
+    <h2>Our Gen-Z Inspired Menu ✨</h2>
+    <div class="menu">
+        <div class="menu-item">
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Latte">
+            <h3>Aesthetic Latte</h3>
+            <p>Vanilla-infused oat milk latte with latte art worthy of your IG feed.</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://images.unsplash.com/photo-1572567600610-75d4d52f6f53" alt="Matcha">
+            <h3>Viral Matcha</h3>
+            <p>Earthy matcha with a sweet twist, served in pastel mugs.</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" alt="Cold Brew">
+            <h3>Cold Brew Glow</h3>
+            <p>Strong, smooth, and ice-cold — perfect for your morning grind.</p>
+        </div>
+    </div>
+</section>
+
+<section id="vibe">
+    <h2>Vibe Check 💫</h2>
+    <div class="vibe-check">
+        <p>🎶 Live indie music every Friday</p>
+        <p>📸 Free Polaroid with every purchase above ₹500</p>
+        <p>🪩 Neon Nights: Glow-themed café decor every Saturday</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us 📍</h2>
+    <p>Email: hello@brewtopia.com</p>
+    <p>Instagram: @brewtopiacafe</p>
+    <p>Address: 21 Coffee Lane, YourCity</p>
+</section>
+
+<footer>
+    <p>© 2025 Brewtopia Café | Sip. Snap. Repeat.</p>
+</footer>
+
+</body>
+</html>
